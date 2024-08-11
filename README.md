@@ -2,6 +2,12 @@
 - This is a lesson on how to get started with scripting a tool in Toon Boom Harmony.
 - The following process should take 30 mins to complete
 
+### Pre-Requisites
+
+- Toon Boom Harmony (I'm using version `22.0.3` )
+- Code Editor (I use [**Notepad ++**](https://notepad-plus-plus.org/downloads/)  or [**Visual Studio Code**](https://code.visualstudio.com/Download) )
+
+
 ## Step 1 : Understand the request
 It is essentail that you understand what problem the user is trying to solve, you need to have clarity on what a completed request will look like.
 
@@ -32,6 +38,19 @@ For this request the steps the script will need to complete are
 4. tell the user what happened (Success or Failure)
 
 ## Step 3 : Write the script
+
+### Script Settup
+- From Harmony's **Script Editor** Window
+  - Connect an **External Editor**
+  - Make a new script with a sensible filename
+  - open that script with the script editor
+- Write a super basic script that uses the correct called fuction name and gives the user some feedback (ideally to the **message log** )
+- Now import the script into your **scripting toolbar**
+- Now you have a button that you can press to call the script
+
+
+
+### Actually writing the script
 
 ## Step 4 : Create script icon
 

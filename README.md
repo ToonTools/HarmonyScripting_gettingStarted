@@ -42,20 +42,31 @@ For this request the steps the script will need to complete are
 ### Script Settup
 - From Harmony's **Script Editor** Window
   - Connect an **External Editor**
+    - `C:\Program Files (x86)\Notepad++\notepad++.exe`
+    - `C:\Users\USERNAME\AppData\Local\Programs\Microsoft VS Code\Code.exe`
   - Make a new script with a sensible filename
+    - `BZ_addCompNodes`
   - open that script with the script editor
 - Write a super basic script that uses the correct called fuction name and gives the user some feedback (ideally to the **message log** )
+  - [BZ_addCompNodes_1](ScriptStages/BZ_addCompNodes_1.js)
 - Now import the script into your **scripting toolbar**
 - Now you have a button that you can press to call the script
 
-
-
 ### Actually writing the script
-
+- add informative docstrings
+  - [BZ_addCompNodes_2](ScriptStages/BZ_addCompNodes_2.js)
+- create pseudocode to help with the expected structure
 ## Step 4 : Create script icon
+I use [Figma](https://www.figma.com/design/SLqk13wRGNDB3ZpJf77buo/BZ2D-Script-Icons?node-id=13-57&t=bH49zJ8YxbAOrO0w-0) to create script icons
+
+![BZ_addComp_toReadNode.png](images/BZ_addComp_toReadNode.png)
 
 ## Step 5 : Test the script
-
+Make sure it works in all of the following situations **or** has an error message explaining why it is not working in a particular circumstance:
+- locally, connected to database 
+- with nothing selected, with incorrect nodes selected
+- as many Harmony versions as we have in production
+- on any Show speciffic environments necessary (i.e. check export paths)
 ## Step 6 : Create documentation
 - for the **maintainer** (whoever will need to improve or fix the script)
 - for the **user**

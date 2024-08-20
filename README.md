@@ -56,6 +56,11 @@ For this request the steps the script will need to complete are
 - add informative docstrings
   - [BZ_addCompNodes_2](ScriptStages/BZ_addCompNodes_2.js)
 - create pseudocode to help with the expected structure
+  - [BZ_addCompNodes_3](ScriptStages/BZ_addCompNodes_3.js)
+- validate the users selection
+- create composites under every read node
+  - [BZ_addCompNodes_4](ScriptStages/BZ_addCompNodes_4.js) 
+  - This is code state at the end of the video
 ## Step 4 : Create script icon
 I use [Figma](https://www.figma.com/design/SLqk13wRGNDB3ZpJf77buo/BZ2D-Script-Icons?node-id=13-57&t=bH49zJ8YxbAOrO0w-0) to create script icons
 
